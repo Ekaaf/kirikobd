@@ -14,10 +14,10 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/',[HomeController::class, 'index'])->name('aa');
 Route::get('/index',[HomeController::class, 'index'])->name('index');
 Route::get('/menu',[HomeController::class, 'menu'])->name('menu');
 Route::get('/story',[HomeController::class, 'story'])->name('story');

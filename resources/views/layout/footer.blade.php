@@ -12,7 +12,7 @@
                               <i class="fa fa-phone" aria-hidden="true"></i>
                               <div class="details">
                                  <h4 class="text-uppercase font-Av">Call us</h4>
-                                 <p>01622 222 222</p>
+                                 <p>01744-462658</p>
                               </div>
                            </a>
                         </li>
@@ -27,10 +27,10 @@
                               <i class="fa fa-map-marker" aria-hidden="true"></i>
                               <div class="details">
                                  <h4 class="text-uppercase font-Av">Address</h4>
-                                 <p>E-91, First Floor<br>
-                                    Industrial Area<br>
-                                    Phase 8, Mohali<br>
-                                    Punjab</p>
+                                 <p>Anabil Tower, Plot # 3 , Block -NW(J Gulshan North Avenue,<br>
+                                    Kemal Ataturk Ave, 1212,<br>
+                                    Dhaka, Dhaka Division,<br>
+                                    Bangladesh</p>
                               </div>
                            </a>
                         </li>
@@ -45,7 +45,7 @@
                               <i class="fa fa-envelope-o" aria-hidden="true"></i>
                               <div class="details">
                                  <h4 class="text-uppercase font-Av">Email</h4>
-                                 <p>bookings@restaurant.com</p>
+                                 <p>info@kirikobd.com</p>
                               </div>
                            </a>
                         </li>
@@ -59,23 +59,23 @@
    <div class="copyright-bar white-bg py-50">
       <div class="container">
          <ul class="social-media d-md-flex align-items-center justify-content-center">
-            <li>
+            <!-- <li>
                <a href="#">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                </a>
-            </li>
+            </li> -->
             <li>
-               <a href="#">
+               <a target="_blank" href="https://www.facebook.com/kirikobd">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                </a>
             </li>
             <li>
-               <a href="#">
+               <a target="_blank" href="https://www.instagram.com/kirikobd/">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                </a>
             </li>
          </ul>
-         <p class="text-default text-center mb-0">© 2022 Copyright Restaurant.</p>
+         <p class="text-default text-center mb-0">© 2022 Copyright Kirikobd.</p>
       </div>
    </div>
 </footer>

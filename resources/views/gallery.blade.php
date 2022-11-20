@@ -202,8 +202,10 @@
      <div class="container">
         <hr>
         <div class="text-center pt-5">
-           <i class="fa fa-instagram" aria-hidden="true"></i>
-           <p class=" mb-0"><a href="#" class="text-default">More? follow us on Instagram.</a></p>
+         <a href="https://www.instagram.com/kirikobd/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <p class=" mb-0"><a href="#" class="text-default">More? follow us on Instagram.</a></p>
+         </a>
         </div>
      </div>
     </section>

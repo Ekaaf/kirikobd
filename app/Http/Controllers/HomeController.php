@@ -4,12 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\Candidate;
-use App\Models\FoodItems;
+use App\Models\FoodItem;
 use App\Models\Category;
-use App\Models\AdmissionInfo;
-use App\Models\ExistingStudent;
-use App\Service\MenuService;
 use DB;
 use App\SSP;
 
@@ -25,7 +21,9 @@ class HomeController extends Controller
 
     public function menu(Request $request)
     {   
-        return view('menu');
+        $categories = Category::all();
+        $foods = FoodItem::all();
+        return view('menu')->with('categories', $categories)->with('foods', $foods);
 
     }
 

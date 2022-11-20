@@ -23,7 +23,7 @@
             <div class="row m-0 align-items-center">
                 <div class="col-md-6 p-0">
                     <div class="story-img">
-                        <img src="images/story-lft.webp" alt="story-img">
+                        <img src="{{URL::to('public/theme/images/story-lft.webp')}}" alt="story-img">
                     </div>
                 </div>
                 <div class="col-md-6 p-0">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-md-6 p-0">
                     <div class="story-img">
-                        <img src="images/story-ryt.webp" alt="story-img">
+                        <img src="{{URL::to('public/theme/images/story-ryt.webp')}}" alt="story-img">
                     </div>
                 </div>
             </div>
@@ -92,35 +92,8 @@
      </section>
      <!--Testimonial ends here-->
      <!--private dining start here-->
-     <section class="private-dining booktable-bg py-180 border-zigzag-up parallex">
-        <div class="container text-center">
-           <h4 class="text-white mb-5">BOOK A TABLE / PRIVATE DINING</h4>
-           <div class="btn-row">
-              <a href="contact.html" class="btn btn-primary btn-white"><i class="fa fa-envelope" aria-hidden="true"></i>
-                 Enquire now</a>
-              <a href="tel:0123-456-789" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i>
-                 0123-456-789</a>
-           </div>
-        </div>
-     </section>
      <!--private dining ends here-->
      <!--Keepup-date start here-->
-     <section class="Keepup-date py-130">
-        <div class="container">
-           <h4 class="text-default text-center mb-lg-3">KEEP UP TO DATE WITH Us!</h4>
-           <p class="text-gray text-center">Sign up to be the first to receive special news and event updates from Restaurant. </p>
-           <form class="keepup-form needs-validation" novalidate>
-              <div class="formrow">
-                 <input type="email" class="form-control" required placeholder="Enter Your Email Address">
-                 <div class="input-group-append">
-                    <button class="btn btn-secondary" type="submit">
-                       <img src="images/next.png" alt="next">
-                    </button>
-                 </div>
-              </div>
-           </form>
-        </div>
-     </section>
      <!--Keepup-date ends here-->
   </main>
 

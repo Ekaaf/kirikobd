@@ -10,12 +10,12 @@
                <div class="carousel-caption my-auto">
                   <h5 class="font-cursive mb-0 text-start primary">Taste</h5>
                   <h2 class="text-white">Loved by people</h2>
-                  <div class="address mb-5">
+                  <!-- <div class="address mb-5">
                      <p class="text-uppercase">1243th Avenue, London</p>
                      <p  class="text-uppercase">Tel: 1 (234) 5555</p>
-                  </div>
+                  </div> -->
                   <div class="banner-btn">
-                     <a href="menu.html" class="btn btn-outline">View Our Menu</a>
+                     <a href="{{URL::to('menu')}}" class="btn btn-outline">View Our Menu</a>
                   </div>
                </div>
             </div>
@@ -24,12 +24,12 @@
                <div class="carousel-caption my-auto">
                   <h5 class="font-cursive mb-0 text-start primary">Taste</h5>
                   <h2 class="text-white">Loved by people</h2>
-                  <div class="address mb-5">
+                  <!-- <div class="address mb-5">
                      <p class="text-uppercase">1243th Avenue, London</p>
                      <p class="text-uppercase">Tel: 1 (234) 5555</p>
-                  </div>
+                  </div> -->
                   <div class="banner-btn">
-                     <a href="menu.html" class="btn btn-outline">View Our Menu</a>
+                     <a href="{{URL::to('menu')}}" class="btn btn-outline">View Our Menu</a>
                   </div>
                </div>
             </div>
@@ -38,12 +38,12 @@
                <div class="carousel-caption my-auto">
                   <h5 class="font-cursive mb-0 text-start primary">Taste</h5>
                   <h2 class="text-white">Loved by people</h2>
-                  <div class="address mb-5">
+                  <!-- <div class="address mb-5">
                      <p class="text-uppercase">1243th Avenue, London</p>
                      <p class="text-uppercase">Tel: 1 (234) 5555</p>
-                  </div>
+                  </div> -->
                   <div class="banner-btn">
-                     <a href="menu.html" class="btn btn-outline">View Our Menu</a>
+                     <a href="{{URL::to('menu')}}" class="btn btn-outline">View Our Menu</a>
                   </div>
                </div>
             </div>
@@ -83,7 +83,7 @@
                   <h5 class="font-cursive mb-0 text-start primary">Discover</h5>
                   <h2 class="text-uppercase">Our Story</h2>
                   <p class="font-Av mb-5">Multiply isn't night sixth under second second open he darkness said beast, without whales every herb sea place light life from divide isn't. Deep give greater. Darkness have fifth third open over itself. Third great make form is waters were. Midst green very. </p>
-                  <div class="story-btn"><a href="story.html" class="btn btn-primary">Read our full Story</a></div>
+                  <div class="story-btn"><a href="{{URL::to('story')}}" class="btn btn-primary">Read our full Story</a></div>
                </div>
             </div>
          </div>
@@ -168,14 +168,14 @@
    </section>
 
 
-   <section class="instagram-gallery-bar pt-5">
+   <!-- <section class="instagram-gallery-bar pt-5">
       <div class="container">
          <h4 class="primary-title text-uppercase">Social Media</h4>
       </div>
       <div class="container-fluid mt-5 p-0" style="text-align: center;">
          Social Media
       </div>
-   </section>
+   </section> -->
    <!--Instagram Gallery ends here-->
    <!--Rule-war section start here-->
    <!--Rule-war section ends here-->
@@ -184,22 +184,6 @@
    <!--Reservation start here-->
    <!--Reservation ends here-->
    <!--Keepup-date start here-->
-   <section class="Keepup-date py-130">
-      <div class="container">
-         <h4 class="text-default text-center mb-lg-3">KEEP UP TO DATE WITH Us!</h4>
-         <p class="text-gray text-center">Sign up to be the first to receive special news and event updates from Restaurant. </p>
-         <form class="keepup-form needs-validation" novalidate>
-            <div class="formrow">
-               <input type="email" class="form-control" required placeholder="Enter Your Email Address">
-               <div class="input-group-append">
-                  <button class="btn btn-secondary" type="submit">
-                     <img src="{{URL::to('public/theme/images/next.png')}}" alt="next">
-                  </button>
-               </div>
-            </div>
-         </form>
-      </div>
-   </section>
    <!--Keepup-date ends here-->
 </main>
 
