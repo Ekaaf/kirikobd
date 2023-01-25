@@ -6,7 +6,7 @@
       <div id="banner-slide" class="carousel slide carousel-fade" data-bs-ride="carousel">
          <div class="carousel-inner">
             <div class="item carousel-item active">
-               <img src="{{URL::to('public/theme/images/slide1.webp')}}" alt="Los Angeles" class="img-fluid w-100">
+               <img src="{{URL::to('public/images/banner1.png')}}" alt="Los Angeles" class="img-fluid w-100">
                <div class="carousel-caption my-auto">
                   <h5 class="font-cursive mb-0 text-start primary">Taste</h5>
                   <h2 class="text-white">Loved by people</h2>
@@ -20,7 +20,7 @@
                </div>
             </div>
             <div class="item carousel-item ">
-               <img src="{{URL::to('public/theme/images/slide2.webp')}}" alt="Los Angeles" class="img-fluid w-100">
+               <img src="{{URL::to('public/images/banner2.png')}}" alt="Los Angeles" class="img-fluid w-100">
                <div class="carousel-caption my-auto">
                   <h5 class="font-cursive mb-0 text-start primary">Taste</h5>
                   <h2 class="text-white">Loved by people</h2>
@@ -34,7 +34,7 @@
                </div>
             </div>
             <div class="item carousel-item ">
-               <img src="{{URL::to('public/theme/images/slide3.webp')}}" alt="Los Angeles" class="img-fluid w-100">
+               <img src="{{URL::to('public/images/banner3.png')}}" alt="Los Angeles" class="img-fluid w-100">
                <div class="carousel-caption my-auto">
                   <h5 class="font-cursive mb-0 text-start primary">Taste</h5>
                   <h2 class="text-white">Loved by people</h2>
@@ -68,12 +68,12 @@
                <div class="row">
                   <div class="col-lg-6 col-md-6 col-6">
                      <div class="story-img-bar">
-                        <img src="{{URL::to('public/theme/images/story-img-1.webp')}}" alt="story-img-1">
+                        <img src="{{URL::to('public/images/homestory1.png')}}" alt="story-img-1">
                      </div>
                   </div>
                   <div class="col-lg-6 col-md-6 col-6">
                      <div class="story-img-bar mt-5">
-                        <img src="{{URL::to('public/theme/images/story-img-2.webp')}}" alt="story-img-2">
+                        <img src="{{URL::to('public/images/homestory2.png')}}" alt="story-img-2">
                      </div>
                   </div>
                </div>
@@ -82,7 +82,9 @@
                <div class="story-detail ps-lg-4">
                   <h5 class="font-cursive mb-0 text-start primary">Discover</h5>
                   <h2 class="text-uppercase">Our Story</h2>
-                  <p class="font-Av mb-5">Multiply isn't night sixth under second second open he darkness said beast, without whales every herb sea place light life from divide isn't. Deep give greater. Darkness have fifth third open over itself. Third great make form is waters were. Midst green very. </p>
+                  <p class="font-Av mb-5">Kiriko BD is a product of love and passion for one of the world’s most renowned cuisines, the exquisite and bursting with flavor, Japanese cuisine. Kiriko brings together the love for Japanese cuisine and the authentic fine dining experience a cuisine as breathtaking as it deserves!
+Our Japanese head chef is an award winning chef from the heartland of the cuisine we all love and admire so much. He is a man on a mission to spread the joy and love of Japanese food amongst the long time admirers in the country. From scintillating Teppanyaki to mouth watering desserts such as Matcha Tiramisu, you name it and Chef insert surname has got it all covered.
+ </p>
                   <div class="story-btn"><a href="{{URL::to('story')}}" class="btn btn-primary">Read our full Story</a></div>
                </div>
             </div>
@@ -96,11 +98,11 @@
          <div class="row">
             <div class="col-lg-4 col-md-12">
                <div class="gallery-bar border border-5">
-                  <img src="{{URL::to('public/theme/images/gallery-left-img.webp')}}" alt="img" class="img-fluid">
+                  <img src="{{URL::to('public/images/homegallery1.png')}}" alt="img" class="img-fluid">
                </div>
             </div>
             <div class="col-lg-4 col-md-12">
-               <a href="gallery.html" class="gallery-content border border-5">
+               <a href="{{URL::to('gallery')}}" class="gallery-content border border-5">
                   <h5 class="font-cursive mb-0">View our</h5>
                   <h2 class="text-white text-uppercase">Gallery</h2>
                   <p>food & Venue</p>
@@ -108,7 +110,7 @@
             </div>
             <div class="col-lg-4 col-md-12">
                <div class="gallery-bar border border-5">
-                  <img src="{{URL::to('public/theme/images/gallery-ryt-img.webp')}}" alt="img" class="img-fluid">
+                  <img src="{{URL::to('public/images/homegallery2.png')}}" alt="img" class="img-fluid">
                </div>
             </div>
          </div>
@@ -133,7 +135,7 @@
          <div class="row m-0">
             <div class="col-lg-3 p-0 col-md-6">
                <div class="insta-box">
-                  <img src="{{URL::to('public/theme/images/insta-1.webp')}}" alt="instagram-img">
+                  <img src="{{URL::to('public/images/homeinsta1.png')}}" alt="instagram-img">
                   <div class="overlay">
                      <i class="fa fa-instagram" aria-hidden="true"></i>
                   </div>
@@ -141,7 +143,7 @@
             </div>
             <div class="col-lg-3 p-0 col-md-6">
                <div class="insta-box">
-                  <img src="{{URL::to('public/theme/images/insta-2.webp')}}" alt="instagram-img">
+                  <img src="{{URL::to('public/images/homeinsta2.png')}}" alt="instagram-img">
                   <div class="overlay">
                      <i class="fa fa-instagram" aria-hidden="true"></i>
                   </div>                    
@@ -149,7 +151,7 @@
             </div>
             <div class="col-lg-3 p-0 col-md-6">
                <div class="insta-box">
-                  <img src="{{URL::to('public/theme/images/insta-3.webp')}}" alt="instagram-img">
+                  <img src="{{URL::to('public/images/homeinsta3.png')}}" alt="instagram-img">
                   <div class="overlay">
                      <i class="fa fa-instagram" aria-hidden="true"></i>
                   </div>                    
@@ -157,7 +159,7 @@
             </div>
             <div class="col-lg-3 p-0 col-md-6">
                <div class="insta-box">
-                  <img src="{{URL::to('public/theme/images/insta-4.webp')}}" alt="instagram-img">
+                  <img src="{{URL::to('public/images/homeinsta4.png')}}" alt="instagram-img">
                   <div class="overlay">
                      <i class="fa fa-instagram" aria-hidden="true"></i>
                   </div>                     

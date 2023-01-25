@@ -3,7 +3,7 @@
 
 <main>
     <!--Inner banner start here-->
-    <section class="banner-inner border-zigzag-up" style="background-image: url('public/theme/images/story-bg.webp');">
+    <section class="banner-inner border-zigzag-up" style="background-image: url('public/images/Menu-cover.png');">
         <div class="container">
             <h2 class="banner-title text-uppercase text-center text-white">Our Menu</h2>
         </div>

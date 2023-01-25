@@ -5,7 +5,7 @@
 <main>
         
     <!--Inner banner start here-->
-    <section class="banner-inner border-zigzag-up" style="background-image: url('public/theme/images/story-bg.webp');">
+    <section class="banner-inner border-zigzag-up" style="background-image: url('public/images/Menu-cover.png');">
         <div class="container">
             <h2 class="banner-title text-uppercase text-center text-white">Gallery</h2>
         </div>
@@ -17,36 +17,29 @@
         <div class="row ">
            <div class="col-md-4 ">
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/1.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line1/1.png')}}" alt="gallery-img">
                  <div class="gallery-overlay " onclick="openModal();currentSlide(1)">
                     <h4>Loream Ipsum</h4>
                     <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="i{{URL::to('public/theme/mages/2.webp')}}" alt="gallery-img">
+                 <img src="i{{URL::to('public/gallery/line1/2.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(2)">
                     <h4>Loream Ipsum</h4>
                     <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/3.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line1/3.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(3)">
                     <h4>Loream Ipsum</h4>
                     <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/3-2.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line1/4.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(4)">
-                    <h4>Loream Ipsum</h4>
-                    <p>loream ipsum is a dummy content</p>
-                 </div>
-              </div>
-              <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/3-1.webp')}}" alt="gallery-img">
-                 <div class="gallery-overlay" onclick="openModal();currentSlide(5)">
                     <h4>Loream Ipsum</h4>
                     <p>loream ipsum is a dummy content</p>
                  </div>
@@ -54,35 +47,35 @@
            </div>
            <div class="col-md-4">
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/4.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line2/1.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(6)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/5.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line2/2.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(7)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/6.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line2/3.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(8)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/4-2.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line2/4.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(9)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/4-1.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line2/5.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(10)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
@@ -91,35 +84,35 @@
            </div>
            <div class="col-md-4">
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/7.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line3/1.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(11)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/8.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line3/2.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(12)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/9.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line3/3.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(13)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/5-2.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line3/4.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(14)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>
                  </div>
               </div>
               <div class="gallery-img mb-4">
-                 <img src="{{URL::to('public/theme/images/5-1.webp')}}" alt="gallery-img">
+                 <img src="{{URL::to('public/gallery/line3/5.png')}}" alt="gallery-img">
                  <div class="gallery-overlay" onclick="openModal();currentSlide(15)">
                  <h4>Loream Ipsum</h4>
                  <p>loream ipsum is a dummy content</p>

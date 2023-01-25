@@ -4,7 +4,7 @@
 
 <main>
     <!--Inner banner start here-->
-    <section class="banner-inner border-zigzag-up" style="background-image: url('public/theme/images/story-bg.webp');">
+    <section class="banner-inner border-zigzag-up" style="background-image: url('public/images/Menu-cover.png');">
         <div class="container">
             <h2 class="banner-title text-uppercase text-center text-white">Who we are</h2>
         </div>
@@ -13,7 +13,7 @@
     <!--Rule-war section start here-->
     <section class="rule-war py-110 border-zigzag-up">
         <div class="container  max-880">
-           <h4 class="letter-spacing-0 text-default text-center mb-0">Stars creeping one make darkness winged for open set lights night likeness yielding their first above without night yielding second he. Land said life subdue one. Fruit. Stars Waters, good from that great one spirit herb won't brought. Darkness made brought.</h4>
+           <h4 class="letter-spacing-0 text-default text-center mb-0">Located at the State of the Art Anabil tower in the capital’s Gulshan area, the rooftop restaurant provides stunning outdoor scenic views and gorgeous interiors bringing the Japanese fine dining culture to your doorstep.</h4>
         </div>
      </section>
      <!--Rule-war section ends here-->
@@ -23,13 +23,13 @@
             <div class="row m-0 align-items-center">
                 <div class="col-md-6 p-0">
                     <div class="story-img">
-                        <img src="{{URL::to('public/theme/images/story-lft.webp')}}" alt="story-img">
+                        <img src="{{URL::to('public/images/philosophy.png')}}" alt="story-img">
                     </div>
                 </div>
                 <div class="col-md-6 p-0">
                     <div class="story-content text-center">
                         <h4 class="text-default mb-3 text-uppercase">Philosophy</h4>
-                        <p>Second third air man waters which years seas midst created dominion yielding let, midst, i moved open above fruit sea one light make. He let earth spirit form isn't. Stars creeping one make darkness winged for open set lights night likeness yielding their first above without night yielding second he. 
+                        <p>Kiriko brings together the love for Japanese cuisine and the authentic fine dining experience a cuisine as breathtaking as it deserves!
                         </p>
                     </div>
                 </div>
@@ -38,13 +38,13 @@
                 <div class="col-md-6 p-0">
                     <div class="story-content text-center">
                         <h4 class="text-default mb-3 text-uppercase">Founder</h4>
-                        <p>Second third air man waters which years seas midst created dominion yielding let, midst, i moved open above fruit sea one light make. He let earth spirit form isn't. Stars creeping one make darkness winged for open set lights night likeness yielding their first above without night yielding second he. 
+                        <p>Kiriko BD is the brain child of our Founder Tawsif Wahid who is an avid food lover. He has travelled the world and fallen in love with the Japanese cuisine and the exotic culture surrounding it. Being a Japanese cuisine enthusiast himself, he felt the lack of a proper Japanese fine dining experience in a city which is absolutely crazy about a proper dining experience! Therefore, he decided to bring to the people what they did or maybe didn’t know they were missing, the ultimate Japanese fine dining experience in the country!
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6 p-0">
                     <div class="story-img">
-                        <img src="{{URL::to('public/theme/images/story-ryt.webp')}}" alt="story-img">
+                        <img src="{{URL::to('public/images/Founder.png')}}" alt="story-img">
                     </div>
                 </div>
             </div>
