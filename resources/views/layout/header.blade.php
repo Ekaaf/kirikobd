@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav ms-auto ">
                   <li class="nav-item me-5">
-                     <a class="nav-link p-0 text-white active" aria-current="page" href="{{URL::to('index')}}">Home</a>
+                     <a class="nav-link p-0 text-white <?php if(Request::segment(1) == 'index' || Request::segment(1) == '') echo 'active'; ?>" aria-current="page" href="{{URL::to('index')}}">Home</a>
                   </li>
                   <li class="nav-item me-5">
                      <a class="nav-link p-0 text-white " href="{{URL::to('menu')}}">Menu</a>
@@ -23,17 +23,17 @@
                       </ul> -->
                   </li>
                   <li class="nav-item me-5">
-                     <a class="nav-link p-0 text-white" href="{{URL::to('gallery')}}">Gallery</a>
+                     <a class="nav-link p-0 text-white <?php if(Request::segment(1) == 'gallery') echo 'active'; ?>" href="{{URL::to('gallery')}}">Gallery</a>
                   </li>
                   <li class="nav-item me-5">
-                     <a class="nav-link p-0 text-white" href="{{URL::to('story')}}">Story</a>
+                     <a class="nav-link p-0 text-white <?php if(Request::segment(1) == 'story') echo 'active'; ?>" href="{{URL::to('story')}}">Story</a>
                   </li>
                   <li class="nav-item me-5">
-                     <a class="nav-link p-0 text-white" href="{{URL::to('contact')}}">Contact</a>
+                     <a class="nav-link p-0 text-white <?php if(Request::segment(1) == 'contact') echo 'active'; ?>" href="{{URL::to('contact')}}">Contact</a>
                   </li>
                </ul>
                <form class="d-flex">
-                  <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Book a Table</button>
+                  <!-- <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Book a Table</button> -->
                   <!-- Book a Table Modal -->
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                      <div class="modal-dialog  modal-dialog-centered">
